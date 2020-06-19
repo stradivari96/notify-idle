@@ -18,7 +18,7 @@ if __name__ == "__main__":
         if proc.info["status"] != "running":
             continue
         proc_str = " ".join(p for p in proc.info["cmdline"])
-        if "python" in proc_str and "email-no-python-proc" not in proc_str:
+        if "python" in proc_str and "notify-idle" not in proc_str:
             procs.append(proc_str)
 
     procs = "\n-".join(procs)

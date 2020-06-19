@@ -5,7 +5,7 @@ import setuptools
 
 setuptools.setup(
     name="notify-idle",
-    version="0.0.1",
+    version="0.0.2",
     author="Xiang Chen",
     author_email="xiangchenchen96@gmail.com",
     python_requires=">=3.6",
