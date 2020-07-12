@@ -5,7 +5,7 @@ import setuptools
 
 setuptools.setup(
     name="notify-idle",
-    version="0.0.2",
+    version="0.0.3",
     author="Xiang Chen",
     author_email="xiangchenchen96@gmail.com",
     python_requires=">=3.6",
@@ -13,7 +13,7 @@ setuptools.setup(
     install_requires=[
         "psutil"
     ],
-    description="Send email from GMX if machine is IDLE",
+    description="Send email from GMX if machine is idle",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
